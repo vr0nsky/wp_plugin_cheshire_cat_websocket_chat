@@ -1,0 +1,36 @@
+#websocket-chat-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+#chat-input {
+    width: calc(100% - 70px);
+    padding: 8px;
+}
+
+#send-button {
+    width: 60px;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
