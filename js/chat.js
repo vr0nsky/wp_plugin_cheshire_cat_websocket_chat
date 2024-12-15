@@ -1,6 +1,6 @@
 (function () {
     //const WS_SERVER_URL = "wss://example.com/socket"; // Sostituisci con il tuo server WebSocket
-    const WS_SERVER_URL = "wss://labwp.fr/ws/user?token=meow2";
+    const WS_SERVER_URL = "wss://yourdomain.com/ws/user?token=meow2";
 
     const elems = {
         chatBox: document.querySelector("#chat-box"),
